@@ -37,15 +37,49 @@ li{
 	background-position: center;
  	background-repeat: no-repeat;
  	padding-top: 65px;
- 	background-attachment: fixed;
+ 	
 }
 .d-footer{
 	width: 100%;
-	height: 207px;   /*unda wavshalo*/
 	background-color: #2E2E2E; 
-	display: flex;
-	justify-content: space-between;
+	position: relative;
 } 
 .logow{
-	
+	padding-top: 60px;
+	padding-left: 140px;
+	display: inline-block;
+	padding-bottom: 50px;
+}
+.contact{
+	position: absolute;
+	top:50%;
+	display: inline-block;
+	padding-left: 200px;
+}
+.address{
+	position: absolute;
+	top: 50%;
+	right: 30%;
+	display: inline-block;
+	padding-left: 200px;
+}
+h3{
+	color: #F2F2F2;
+	font-size: 20px;
+}
+p{
+	color: #F2F2F2;
+	font-size: 13px;
+}
+.icons{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	display: inline-block;
+	padding-left: 115px;
+	padding-right: 140px; 
+}
+.icons:first-child{
+	display: inline-block;
+	padding-right: 30px;
 }
