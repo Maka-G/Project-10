@@ -37,7 +37,7 @@ li{
 	background-position: center;
  	background-repeat: no-repeat;
  	padding-top: 65px;
- 	
+
 }
 .d-footer{
 	width: 100%;
@@ -80,6 +80,45 @@ p{
 	padding-right: 140px; 
 }
 .icons:first-child{
-	display: inline-block;
 	padding-right: 30px;
+}
+
+/* form */
+.d-form{
+	font-size: 20px;
+	padding-left: 120px;
+	color: #2E2E2E;
+	padding-top: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+.d-input{ 
+	margin-left: 95px;
+	margin-top: 10px;
+	width: 730px;
+	height: 70px;
+	border: none;
+	box-shadow: 0 0 4px;
+}
+.d-textarea{
+	margin-left: 95px;
+	margin-top: 10px;
+	border: none;
+	box-shadow: 0 0 4px;
+	width: 730px;
+	height: 110px;
+}
+
+button{
+	margin-top: 40px;
+	margin-left: 95px;
+	background-color: #2E2E2E;
+	margin-bottom: 220px;
+	border:none;
+	height: 50px;
+	width: 150px;
+}
+h4{
+	color: white;
+	font-size: 21px;
+	font-family: 'Roboto', sans-serif;
 }
