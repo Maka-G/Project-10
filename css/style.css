@@ -1,0 +1,51 @@
+body{
+	width: 100%;
+	height: 100%;
+}
+li{
+	display: inline-block;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+.d-header{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+	padding-left: 140px;
+	padding-right: 140px;
+	vertical-align: middle;
+}
+.menu{
+	color: #707070;
+	font-size: 20px;
+
+}
+.search{
+	padding-top: 20px;
+}
+.d-section{
+	padding-top: 65px;
+	padding-left: 140px;
+	padding-right: 140px;
+	padding-bottom: 50px;
+}
+.map{
+	background: url('../img/map.svg');
+	width: 1086px;
+	height: 403px;
+	background-size: cover;
+	background-position: center;
+ 	background-repeat: no-repeat;
+ 	padding-top: 65px;
+ 	background-attachment: fixed;
+}
+.d-footer{
+	width: 100%;
+	height: 207px;   /*unda wavshalo*/
+	background-color: #2E2E2E; 
+	display: flex;
+	justify-content: space-between;
+} 
+.logow{
+	
+}
